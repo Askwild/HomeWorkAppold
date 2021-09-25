@@ -53,7 +53,7 @@ public class HomeWorkApp3 {
 
     public static void dimensionalIntegerArray() {
         int[][] arr = new int[4][4];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++ ) {
             for (int j = 0; j < arr[i].length; j++) {
                 if (j == i) {
                     arr[i][j] = 1;
